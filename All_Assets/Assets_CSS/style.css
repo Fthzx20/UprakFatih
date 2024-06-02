@@ -22,6 +22,7 @@ body {
 h1,h2,h3,h4,h5,h6,
 .h1, .h2, .h3, .h4, h5, .h6 {
     font-weight: 600;
+    color: var(--c-dark);
 }
 
 a {
@@ -98,4 +99,17 @@ img {
         width: auto;
         height: 100%;
     }
+}
+
+/* Section Title */
+
+.section-title{
+    margin-bottom: 40px;
+}
+
+.section-title .line{
+    width: 60px;
+    height: 4px;
+    background-color: black;
+    margin: 16px auto 24px auto;
 }
