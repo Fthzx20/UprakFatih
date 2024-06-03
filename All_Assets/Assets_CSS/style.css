@@ -345,3 +345,18 @@ footer .line {
   margin-top: 12px;
   margin-bottom: 24px;
 }
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15%;
+}
+
+.social-icons a:hover {
+  background-color: lightgray;
+  color: black;
+}
