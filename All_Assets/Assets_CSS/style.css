@@ -303,4 +303,10 @@ img {
     left: 0;
     z-index: -1;
     opacity: 85%;
+    margin-top: 15px;
+}
+
+#contact .form-control:focus {
+  border-color: black;
+  box-shadow: var(--box-shadow);
 }
