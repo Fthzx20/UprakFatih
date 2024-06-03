@@ -55,6 +55,10 @@ img {
   padding-bottom: 140px;
 }
 
+.theme-shadow {
+    box-shadow: var(--box-shadow);
+}
+
 /* NAVBAR */
 .navbar {
   box-shadow: var(--box-shadow);
@@ -156,4 +160,39 @@ img {
   font-size: 34px;
   flex: none;
   border-radius: 15%;
+}
+
+/* Service */
+
+.services {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.services::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: grey;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: var(--transition);
+}
+
+.services:hover::after {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
+.services:hover h5,
+.services:hover p {
+    color: white;
+}
+
+.services:hover .iconbox {
+    background-color: rgba(255, 255, 255, 0.2);
 }
