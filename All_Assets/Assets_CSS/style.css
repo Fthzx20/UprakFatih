@@ -7,7 +7,7 @@
     --c-brand-light:#6970dd;
     --c-brand-rgb: 78, 87, 212;
     --c-body:#727272;
-    --font-base: "ChillaxDisplay", sans-serif;
+    --font-base: "Chillax-semibold", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
 }
@@ -124,4 +124,10 @@ img {
     height: 4px;
     background-color: black;
     margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
