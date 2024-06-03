@@ -59,6 +59,26 @@ img {
     box-shadow: var(--box-shadow);
 }
 
+/* Image Zoom */
+
+.image-zoom {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-zoom-warpper {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-zoom-warpper img {
+    transition: var(--transition);
+}
+
+.image-zoom:hover .image-zoom-warpper img{
+    transform: scale(1.1);
+}
+
 /* NAVBAR */
 .navbar {
   box-shadow: var(--box-shadow);
@@ -206,5 +226,19 @@ img {
     opacity: 80%;
 }
 
-/* Potofolio */
+/* Portofolio */
 
+.portofolio-item .iconbox {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.portofolio-item:hover .iconbox {
+    opacity: 1;
+    top: 50%;
+}
