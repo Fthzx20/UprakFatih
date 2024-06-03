@@ -146,13 +146,14 @@ img {
 /* Iconbox */
 
 .iconbox {
-    width: 60px;
-    height: 60px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    color: white;
-    font-size: 34px;
-    flex: none;
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  font-size: 34px;
+  flex: none;
+  border-radius: 15%;
 }
